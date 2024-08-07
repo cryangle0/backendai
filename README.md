@@ -3,28 +3,31 @@
 This is a Django project that supports both HTTP and WebSocket protocols using Django Channels.
 
 ## Project Structure
+```
 backendai/
 │
 ├── api/
-│ ├── migrations/
-│ │ ├── init.py
-│ ├── admin.py
-│ ├── apps.py
-│ ├── consumers.py
-│ ├── models.py
-│ ├── routing.py
-│ ├── tests.py
-│ ├── urls.py
-│ ├── views.py
+│   ├── migrations/
+│   │   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── consumers.py
+│   ├── models.py
+│   ├── routing.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
 │
 ├── backendai/
-│ ├── init.py
-│ ├── asgi.py
-│ ├── settings.py
-│ ├── urls.py
-│ ├── wsgi.py
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
 │
 ├── manage.py
+```
+
 
 
 ## Setup
