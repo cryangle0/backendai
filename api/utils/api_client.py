@@ -1,7 +1,7 @@
 import requests
 from typing import List
 
-# 设置 API 的基本 URL
+# 设置 API 的基本   URL
 BASE_URL = "http://154.201.92.211:8001"
 
 def generate_completion(prompt: str) -> str:
