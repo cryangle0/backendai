@@ -1,7 +1,7 @@
 import oss2
 import os
 
-# 配置阿里云OSS
+# 配置OSS
 access_key_id = os.getenv('OSS_ACCESS_KEY_ID')
 access_key_secret = os.getenv('OSS_ACCESS_KEY_SECRET')
 bucket_name = 'shijunyun'
